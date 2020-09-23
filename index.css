@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* 
+错误信息  color: #e74c3c;
+body背景 background-color: #f9fafb;
+表单背景  background-color: #fff;
+font-family: 'Open Sans', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #f9fafb;
+    /* font-family: 'Open Sans', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .3);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #777;
+}
+
+input {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+
+    transition: border-color .5s ease-in;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, .5);
+}
+
+input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+small {
+    margin-top: 5px;
+    color: #e74c3c;
+    visibility: hidden;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: royalblue;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: royalblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+
+    transition: background-color .5s ease-in;
+}
+
+button:hover{
+    background-color: royalblue;
+    color: #fff;
+}
+/*  */
